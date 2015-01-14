@@ -1,3 +1,5 @@
+package com.test;
+
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import org.hamcrest.CoreMatchers;
@@ -6,7 +8,7 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class n11 {
+public class TestCaseClass {
   private WebDriver driver;
   private String baseUrl;
   private StringBuffer verificationErrors = new StringBuffer();
@@ -19,7 +21,7 @@ public class n11 {
   }
 
   @Test
-  public void n11TestCase() throws Exception {
+  public void testCase() throws Exception {
 		  
 	String[] prodCodeParams;
 	String 	 prodCode;
